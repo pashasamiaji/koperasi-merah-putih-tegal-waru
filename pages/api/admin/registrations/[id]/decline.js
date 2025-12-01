@@ -1,4 +1,4 @@
-import db from '../../_db'
+import db from '../../../_db';
 import jwt from 'jsonwebtoken'
 const SECRET = process.env.JWT_SECRET || 'dev_secret'
 function auth(req){
