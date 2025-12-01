@@ -1,4 +1,4 @@
-import db from '../../_db'
+import db from '../../../_db';
 import { v4 as uuidv4 } from 'uuid'
 import jwt from 'jsonwebtoken'
 const SECRET = process.env.JWT_SECRET || 'dev_secret'
